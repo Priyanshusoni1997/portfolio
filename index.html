@@ -1,16 +1,98 @@
 <!DOCTYPE HTML>
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Portfolio of Priyanshu Soni
+	Template based on Massively by HTML5 UP (html5up.net)
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>Priyanshu Soni | PhD Researcher – Computational Biomechanics & CFD</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Academic Portfolio of Priyanshu Soni, PhD Researcher at IIT (BHU) Varanasi specializing in Computational Biomechanics, Fluid-Structure Interaction (FSI), Hemodynamics, and PINNs." />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Custom Enhancements for Academic Portfolio */
+			.skill-badges {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 0.6rem;
+				margin-top: 1.5rem;
+				margin-bottom: 2rem;
+			}
+			.skill-badge {
+				background: #f4f4f4;
+				border: 1px solid #dcdcdc;
+				border-radius: 4px;
+				padding: 0.35rem 0.85rem;
+				font-size: 0.8rem;
+				font-weight: 600;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+				color: #212931;
+			}
+			.research-tag {
+				display: inline-block;
+				font-size: 0.75rem;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				color: #18bfef;
+				margin-bottom: 0.4rem;
+			}
+			.video-comparison {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 12px;
+				margin-bottom: 1.5rem;
+			}
+			.video-card {
+				background: #1e252d;
+				border-radius: 6px;
+				overflow: hidden;
+				padding-bottom: 0.4rem;
+			}
+			.video-card video {
+				width: 100%;
+				height: 220px;
+				object-fit: cover;
+				display: block;
+			}
+			.video-label {
+				display: block;
+				text-align: center;
+				font-size: 0.75rem;
+				font-weight: 600;
+				color: #ffffff;
+				padding-top: 0.4rem;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+			}
+			.pub-section {
+				padding: 4rem 4rem 2rem 4rem;
+				text-align: left;
+				border-top: solid 2px #eeeeee;
+			}
+			.pub-item {
+				margin-bottom: 2rem;
+				padding-left: 1rem;
+				border-left: 3px solid #18bfef;
+			}
+			.pub-item p {
+				margin-bottom: 0.6rem;
+				font-size: 1.05rem;
+				line-height: 1.6;
+			}
+			@media screen and (max-width: 736px) {
+				.pub-section {
+					padding: 2rem 1.5rem 1rem 1.5rem;
+				}
+				.video-comparison {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -24,7 +106,8 @@
 						</video>
 						<h1 style="position: relative; z-index: 1;">Priyanshu<br />
 						Soni</h1>
-						<p>PhD Researcher – Computational Biomechanics / Fluid Dynamics</p>
+						<p>PhD Researcher – Computational Biomechanics &amp; Fluid Dynamics<br />
+						Department of Biomedical Engineering, IIT (BHU) Varanasi</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -32,113 +115,169 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Priyanshu.</a>
+						<a href="index.html" class="logo">Priyanshu Soni</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="#intro">Welcome</a></li>
-							<li><a href="#about">About Me</a></li>
-							<li><a href="#research">Research Work</a></li>
-							<li><a href="#publications">Journal Publications</a></li>
+							<li class="active"><a href="#intro" class="scrolly">Welcome</a></li>
+							<li><a href="#about" class="scrolly">About Me</a></li>
+							<li><a href="#research" class="scrolly">Research Work</a></li>
+							<li><a href="#publications" class="scrolly">Publications</a></li>
+							<li><a href="#contact" class="scrolly">Contact</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="https://scholar.google.com/citations?user=_caosoUAAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
-							<li><a href="https://www.linkedin.com/in/priyanshu-soni-052b09130/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://scholar.google.com/citations?user=_caosoUAAAAJ&hl=en" target="_blank" rel="noopener" class="icon solid fa-graduation-cap" title="Google Scholar"><span class="label">Google Scholar</span></a></li>
+							<li><a href="https://www.linkedin.com/in/priyanshu-soni-052b09130/" target="_blank" rel="noopener" class="icon brands fa-linkedin-in" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Priyanshusoni1997" target="_blank" rel="noopener" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post -->
+						<!-- Featured Post / About Me -->
 							<article class="post featured" id="about">
 								<header class="major">
-									<h2><a href="#">About Me</a></h2>
-									<p>I am a PhD Researcher at IIT BHU Varanasi, specializing in computational biomechanics, fluid-structure interaction (FSI), and patient-specific modelling. My research combines CFD, hemodynamics, and Physics-Informed Neural Networks (PINNs) to improve cardiovascular disease assessment and assist medical device development.</p>
+									<span class="date">Academic Profile</span>
+									<h2>About Me</h2>
+									<p>I am a PhD Researcher at <strong>IIT (BHU) Varanasi</strong>, specializing in computational biomechanics, fluid-structure interaction (FSI), and patient-specific cardiovascular modelling. My research integrates Computational Fluid Dynamics (CFD), experimental hemodynamics (PIV), and Physics-Informed Neural Networks (PINNs) to improve cardiovascular disease assessment and accelerate medical device development.</p>
 								</header>
-								<div class="image main" style="max-width: 300px; margin: 0 auto; border-radius: 50%; overflow: hidden; border: 5px solid #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-									<img src="images/profile.jpg" alt="Priyanshu Soni" />
+
+								<div class="image main" style="max-width: 260px; margin: 0 auto 2rem auto; border-radius: 50%; overflow: hidden; border: 5px solid #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.12);">
+									<img src="images/profile.jpg" alt="Priyanshu Soni - PhD Researcher at IIT BHU" />
 								</div>
+
+								<!-- Core Technical Competencies -->
+								<h3 style="text-align: center; font-size: 0.95rem; letter-spacing: 0.1em; color: #717981;">Core Competencies &amp; Toolkit</h3>
+								<div class="skill-badges">
+									<span class="skill-badge">Computational Fluid Dynamics (CFD)</span>
+									<span class="skill-badge">Fluid-Structure Interaction (FSI)</span>
+									<span class="skill-badge">Cardiovascular Hemodynamics</span>
+									<span class="skill-badge">Physics-Informed Neural Networks (PINNs)</span>
+									<span class="skill-badge">Particle Image Velocimetry (PIV)</span>
+									<span class="skill-badge">Topology Optimization (SIMP)</span>
+									<span class="skill-badge">Patient-Specific 3D Modelling</span>
+									<span class="skill-badge">FEA &amp; Implant Biomechanics</span>
+								</div>
+
+								<ul class="actions special">
+									<li><a href="https://scholar.google.com/citations?user=_caosoUAAAAJ&hl=en" target="_blank" rel="noopener" class="button primary icon solid fa-graduation-cap">Google Scholar Profile</a></li>
+									<li><a href="#contact" class="button scrolly">Collaborate / Contact</a></li>
+								</ul>
 							</article>
 
-						<!-- Posts -->
+						<!-- Research Work -->
 							<section class="posts" id="research">
 								<article>
 									<header>
-										<h2><a href="#">Interaction of<br />
-										Pathologies</a></h2>
+										<span class="research-tag">FSI Modelling</span>
+										<h2>Interaction of<br />
+										Pathologies</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/research1.jpg" alt="" /></a>
-									<p>Interaction of two pathologies using Fluid Structure Interaction (FSI) Modelling.</p>
+									<span class="image fit"><img src="images/research1.jpg" alt="Interaction of arterial pathologies using FSI modelling" loading="lazy" /></span>
+									<p>Investigating the coupled biomechanical and hemodynamic interplay of co-existing arterial pathologies using two-way Fluid-Structure Interaction (FSI) modelling under pulsatile flow conditions.</p>
 								</article>
+
 								<article>
 									<header>
-										<h2><a href="#">Simulating<br />
-										Hemodynamics</a></h2>
+										<span class="research-tag">Pulsatile CFD</span>
+										<h2>Simulating<br />
+										Hemodynamics</h2>
 									</header>
-									<div style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 10px; margin-bottom: 2rem; scroll-snap-type: x mandatory;">
-										<video autoplay loop muted playsinline style="flex: 0 0 100%; border-radius: 5px; scroll-snap-align: start; max-height: 400px; object-fit: cover;">
-											<source src="videos/TD_at_aneursym.mp4" type="video/mp4">
-										</video>
-										<video autoplay loop muted playsinline style="flex: 0 0 100%; border-radius: 5px; scroll-snap-align: start; max-height: 400px; object-fit: cover;">
-											<source src="videos/TD_at_stenosis.mp4" type="video/mp4">
-										</video>
+									<div class="video-comparison">
+										<div class="video-card">
+											<video autoplay loop muted playsinline preload="metadata">
+												<source src="videos/TD_at_aneursym.mp4" type="video/mp4">
+											</video>
+											<span class="video-label">Aneurysm Flow</span>
+										</div>
+										<div class="video-card">
+											<video autoplay loop muted playsinline preload="metadata">
+												<source src="videos/TD_at_stenosis.mp4" type="video/mp4">
+											</video>
+											<span class="video-label">Stenosis Flow</span>
+										</div>
 									</div>
-									<p>Hemodynamic simulations at an aneurysm (swipe/scroll left) and at a stenosis (swipe/scroll right).</p>
+									<p>Comparative transient hemodynamic simulations capturing blood flow recirculation, wall shear stress gradients, and velocity jets across aneurysmal and stenosed arterial segments.</p>
 								</article>
+
 								<article>
 									<header>
-										<h2><a href="#">LV Vortex<br />
-										Dynamics</a></h2>
+										<span class="research-tag">Cardiac Flow</span>
+										<h2>LV Vortex<br />
+										Dynamics</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/research2.jpeg" alt="" /></a>
-									<p>Left Ventricle (LV) vortex dynamics study to understand flow topology and stasis.</p>
+									<span class="image fit"><img src="images/research2.jpeg" alt="Left Ventricle Vortex Dynamics Simulation" loading="lazy" /></span>
+									<p>High-fidelity intraventricular flow analysis studying Left Ventricle (LV) vortex ring formation, propagation, and blood stasis to evaluate cardiac function and thrombus risk.</p>
 								</article>
+
 								<article>
 									<header>
-										<h2><a href="#">Stent Design &<br />
-										Development</a></h2>
+										<span class="research-tag">Medical Devices &amp; FEA</span>
+										<h2>Stent &amp; Implant<br />
+										Biomechanics</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/Highlighted_image_4.jpg" alt="" /></a>
-									<p>Stent design and development using computational biomechanics. Analysis of different arterial structures.</p>
+									<span class="image fit"><img src="images/Highlighted_image_4.jpg" alt="Stent design and computational biomechanics analysis" loading="lazy" /></span>
+									<p>Structural optimization and finite element analysis (FEA) of endovascular stents and topology-optimized dental/orthopedic implants for superior stress distribution and osseointegration.</p>
 								</article>
+
 								<article>
 									<header>
-										<h2><a href="#">PIV<br />
-										Validation</a></h2>
+										<span class="research-tag">Experimental Fluid Mechanics</span>
+										<h2>PIV<br />
+										Validation</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/Highlighted_image_3.jpg" alt="" /></a>
-									<p>Hemodynamics validation using Particle Image Velocimetry (PIV) experimental setups to confirm flow patterns.</p>
+									<span class="image fit"><img src="images/Highlighted_image_3.jpg" alt="Particle Image Velocimetry experimental setup" loading="lazy" /></span>
+									<p>In-vitro experimental validation of computational hemodynamic models using Particle Image Velocimetry (PIV) in optically clear anatomical phantoms to verify complex flow topologies.</p>
+								</article>
+
+								<article>
+									<header>
+										<span class="research-tag">Scientific Machine Learning</span>
+										<h2>PINNs for<br />
+										Hemodynamics</h2>
+									</header>
+									<span class="image fit"><img src="images/research1.jpg" alt="Physics-Informed Neural Networks in Biomechanics" loading="lazy" style="filter: hue-rotate(190deg) contrast(1.05);" /></span>
+									<p>Integrating Navier-Stokes governing equations into Physics-Informed Neural Networks (PINNs) for rapid, patient-specific surrogate modelling of cardiovascular flow fields and pressure gradients.</p>
 								</article>
 							</section>
 
 						<!-- Publications -->
-							<section id="publications" style="padding: 4rem 4rem 2rem 4rem; text-align: left; border-top: solid 2px #eeeeee;">
-								<h2>Journal Publications</h2>
-								<div style="margin-bottom: 2rem;">
-									<p style="margin-bottom: 0.5rem; font-size: 1.1rem; line-height: 1.6;"><b>Bhattacharyya, A.</b>, <b>Soni, P.</b>, et al. (2026). "Structural and functional optimization of bio ceramics, metallic oxides and nitrides coatings on topology optimized mandibular canine implant for enhanced biomechanical responses." <i>Journal of the Australian Ceramic Society</i>.</p>
+							<section id="publications" class="pub-section">
+								<header class="major">
+									<h2>Selected Journal Publications</h2>
+								</header>
+
+								<div class="pub-item">
+									<p><b>Bhattacharyya, A.</b>, <b>Soni, P.</b>, et al. (2026). "Structural and functional optimization of bio ceramics, metallic oxides and nitrides coatings on topology optimized mandibular canine implant for enhanced biomechanical responses." <i>Journal of the Australian Ceramic Society</i>.</p>
 									<ul class="actions small">
-										<li><a href="../Publications/s41779-026-01355-8 (1).pdf" target="_blank" class="button small">Read Paper</a></li>
+										<li><a href="Publications/s41779-026-01355-8 (1).pdf" target="_blank" class="button small icon solid fa-file-pdf">Read Paper</a></li>
+										<li><a href="https://doi.org/10.1007/s41779-026-01355-8" target="_blank" rel="noopener" class="button small alt">DOI / Publisher</a></li>
 									</ul>
 								</div>
-								<div style="margin-bottom: 2rem;">
-									<p style="margin-bottom: 0.5rem; font-size: 1.1rem; line-height: 1.6;"><b>Soni, P.</b>, et al. (2025). "A fluid-structure interaction study of pulsatile flow dynamics in an artery with multiple pathologies." <i>Physics of Fluids</i>.</p>
+
+								<div class="pub-item">
+									<p><b>Soni, P.</b>, et al. (2025). "A fluid-structure interaction study of pulsatile flow dynamics in an artery with multiple pathologies." <i>Physics of Fluids</i>.</p>
 									<ul class="actions small">
-										<li><a href="../Publications/071913_1_5.0263599 (1).pdf" target="_blank" class="button small">Read Paper</a></li>
+										<li><a href="Publications/071913_1_5.0263599 (1).pdf" target="_blank" class="button small icon solid fa-file-pdf">Read Paper</a></li>
+										<li><a href="https://doi.org/10.1063/5.0263599" target="_blank" rel="noopener" class="button small alt">DOI / Publisher</a></li>
 									</ul>
 								</div>
-								<div style="margin-bottom: 2rem;">
-									<p style="margin-bottom: 0.5rem; font-size: 1.1rem; line-height: 1.6;"><b>Soni, P.</b>, et al. (2024). "A comprehensive review of numerical methods, experimental validation, and emerging trends in left ventricle hemodynamics." <i>Journal of the Brazilian Society of Mechanical Sciences</i>.</p>
+
+								<div class="pub-item">
+									<p><b>Soni, P.</b>, et al. (2024). "A comprehensive review of numerical methods, experimental validation, and emerging trends in left ventricle hemodynamics." <i>Journal of the Brazilian Society of Mechanical Sciences and Engineering</i>.</p>
 									<ul class="actions small">
-										<li><a href="../Publications/s40430-024-04875-1 (1).pdf" target="_blank" class="button small">Read Paper</a></li>
+										<li><a href="Publications/s40430-024-04875-1 (1).pdf" target="_blank" class="button small icon solid fa-file-pdf">Read Paper</a></li>
+										<li><a href="https://doi.org/10.1007/s40430-024-04875-1" target="_blank" rel="noopener" class="button small alt">DOI / Publisher</a></li>
 									</ul>
 								</div>
-								<div style="margin-bottom: 2rem;">
-									<p style="margin-bottom: 0.5rem; font-size: 1.1rem; line-height: 1.6;"><b>Soni, P.</b>, et al. (2023). "Development of a reduced-volume endosseous cuspid tooth implant for improved osseointegration using SIMP technique." <i>Computer Methods in Biomechanics</i>.</p>
+
+								<div class="pub-item">
+									<p><b>Soni, P.</b>, et al. (2023). "Development of a reduced-volume endosseous cuspid tooth implant for improved osseointegration using SIMP technique." <i>Computer Methods in Biomechanics and Biomedical Engineering</i>.</p>
 									<ul class="actions small">
-										<li><a href="../Publications/Development of reduced volume endosseous cuspid tooth implant using topology optimization by SIMP technique for improved osseointegration (1).pdf" target="_blank" class="button small">Read Paper</a></li>
+										<li><a href="Publications/Development of reduced volume endosseous cuspid tooth implant using topology optimization by SIMP technique for improved osseointegration (1).pdf" target="_blank" class="button small icon solid fa-file-pdf">Read Paper</a></li>
 									</ul>
 								</div>
 							</section>
@@ -151,26 +290,29 @@
 							<header>
 								<h2>Get in Touch</h2>
 							</header>
-							<p>I'm currently nearing the final defense stage of my PhD and am open to discussing research collaborations or future opportunities. Feel free to reach out via email or connect on LinkedIn.</p>
+							<p>I am currently nearing the final defense stage of my PhD at IIT (BHU) and am actively exploring <strong>Postdoctoral Fellowships</strong>, <strong>R&amp;D roles in Computational Biomechanics / MedTech</strong>, and academic collaborations. Feel free to reach out via email or connect on LinkedIn.</p>
 							<ul class="actions">
-								<li><a href="mailto:priyanshusoni.rs.bme22@itbhu.ac.in" class="button primary">Email Me</a></li>
+								<li><a href="mailto:priyanshusoni.rs.bme22@itbhu.ac.in" class="button primary icon solid fa-envelope">Email Me</a></li>
+								<li><a href="https://www.linkedin.com/in/priyanshu-soni-052b09130/" target="_blank" rel="noopener" class="button icon brands fa-linkedin-in">Connect on LinkedIn</a></li>
 							</ul>
 						</section>
 						<section class="split contact">
 							<section class="alt">
-								<h3>Address</h3>
+								<h3>Affiliation</h3>
 								<p>Research Scholar, Dept. of Biomedical Engineering<br />
-								IIT (BHU), Varanasi, UP, India - 221005</p>
+								Indian Institute of Technology (BHU)<br />
+								Varanasi, UP, India - 221005</p>
 							</section>
 							<section>
 								<h3>Email</h3>
 								<p><a href="mailto:priyanshusoni.rs.bme22@itbhu.ac.in">priyanshusoni.rs.bme22@itbhu.ac.in</a></p>
 							</section>
 							<section>
-								<h3>Social</h3>
+								<h3>Academic &amp; Social Profiles</h3>
 								<ul class="icons alt">
-									<li><a href="https://scholar.google.com/citations?user=_caosoUAAAAJ&hl=en" target="_blank" class="icon solid alt fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
-									<li><a href="https://www.linkedin.com/in/priyanshu-soni-052b09130/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://scholar.google.com/citations?user=_caosoUAAAAJ&hl=en" target="_blank" rel="noopener" class="icon solid alt fa-graduation-cap" title="Google Scholar"><span class="label">Google Scholar</span></a></li>
+									<li><a href="https://www.linkedin.com/in/priyanshu-soni-052b09130/" target="_blank" rel="noopener" class="icon brands alt fa-linkedin-in" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/Priyanshusoni1997" target="_blank" rel="noopener" class="icon brands alt fa-github" title="GitHub"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
@@ -178,7 +320,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; 2026 Priyanshu Soni</li><li>IIT (BHU) Varanasi</li></ul>
 					</div>
 
 			</div>
